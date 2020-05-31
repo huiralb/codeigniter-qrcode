@@ -1,0 +1,21 @@
+{
+    "name": "huiralb/codeigniter-qrcode",
+    "description": "Generate QR Code - Codeigniter Library",
+    "type": "library",
+    "require": {
+        "php": ">=7.2",
+        "endroid/qr-code": "^3.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Irnovi Albaweny",
+            "email": "huiralb@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hui\\Qrcode\\": "src/"
+        }
+    }
+}
